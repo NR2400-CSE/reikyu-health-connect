@@ -106,6 +106,84 @@ const DashboardPage = () => {
                   <li>• Ensure proper ventilation</li>
                 </ul>
               </Card>
+
+              <Card className="p-6 bg-gradient-card shadow-card hover:shadow-floating transition-smooth">
+                <div className="flex items-center mb-4">
+                  <Heart className="w-8 h-8 text-accent mr-3" />
+                  <h3 className="text-xl font-semibold">Mental Wellness</h3>
+                </div>
+                <ul className="space-y-2 text-sm text-muted-foreground">
+                  <li>• Practice stress management techniques</li>
+                  <li>• Maintain social connections</li>
+                  <li>• Seek help when needed</li>
+                  <li>• Practice mindfulness and meditation</li>
+                </ul>
+              </Card>
+
+              <Card className="p-6 bg-gradient-card shadow-card hover:shadow-floating transition-smooth">
+                <div className="flex items-center mb-4">
+                  <TrendingUp className="w-8 h-8 text-success mr-3" />
+                  <h3 className="text-xl font-semibold">Physical Activity</h3>
+                </div>
+                <ul className="space-y-2 text-sm text-muted-foreground">
+                  <li>• Exercise for 30 minutes daily</li>
+                  <li>• Take stairs instead of elevators</li>
+                  <li>• Stretch regularly during work</li>
+                  <li>• Walk or cycle for short distances</li>
+                </ul>
+              </Card>
+
+              <Card className="p-6 bg-gradient-card shadow-card hover:shadow-floating transition-smooth">
+                <div className="flex items-center mb-4">
+                  <CheckCircle className="w-8 h-8 text-warning mr-3" />
+                  <h3 className="text-xl font-semibold">Sleep Hygiene</h3>
+                </div>
+                <ul className="space-y-2 text-sm text-muted-foreground">
+                  <li>• Sleep 7-8 hours daily</li>
+                  <li>• Maintain consistent sleep schedule</li>
+                  <li>• Avoid screens before bedtime</li>
+                  <li>• Keep bedroom cool and dark</li>
+                </ul>
+              </Card>
+
+              <Card className="p-6 bg-gradient-card shadow-card hover:shadow-floating transition-smooth">
+                <div className="flex items-center mb-4">
+                  <AlertTriangle className="w-8 h-8 text-secondary mr-3" />
+                  <h3 className="text-xl font-semibold">Water Safety</h3>
+                </div>
+                <ul className="space-y-2 text-sm text-muted-foreground">
+                  <li>• Drink boiled or filtered water</li>
+                  <li>• Store water in clean containers</li>
+                  <li>• Avoid ice from unsafe sources</li>
+                  <li>• Check water quality regularly</li>
+                </ul>
+              </Card>
+
+              <Card className="p-6 bg-gradient-card shadow-card hover:shadow-floating transition-smooth">
+                <div className="flex items-center mb-4">
+                  <Users className="w-8 h-8 text-primary mr-3" />
+                  <h3 className="text-xl font-semibold">Sun Protection</h3>
+                </div>
+                <ul className="space-y-2 text-sm text-muted-foreground">
+                  <li>• Use sunscreen with SPF 30+</li>
+                  <li>• Wear protective clothing outdoors</li>
+                  <li>• Avoid peak sun hours (10am-4pm)</li>
+                  <li>• Stay hydrated in hot weather</li>
+                </ul>
+              </Card>
+
+              <Card className="p-6 bg-gradient-card shadow-card hover:shadow-floating transition-smooth">
+                <div className="flex items-center mb-4">
+                  <Calendar className="w-8 h-8 text-accent mr-3" />
+                  <h3 className="text-xl font-semibold">Injury Prevention</h3>
+                </div>
+                <ul className="space-y-2 text-sm text-muted-foreground">
+                  <li>• Use safety equipment when needed</li>
+                  <li>• Keep first aid kit accessible</li>
+                  <li>• Follow traffic safety rules</li>
+                  <li>• Maintain good posture at work</li>
+                </ul>
+              </Card>
             </div>
           </section>
 
