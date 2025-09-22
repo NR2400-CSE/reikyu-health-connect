@@ -15,40 +15,35 @@ import reikywLogo from "@/assets/reikyu-logo.png";
 const AboutPage = () => {
   const teamMembers = [
     {
-      name: "Arjun Patel",
+      name: "Arav Shrivastava",
       role: "Team Lead & AI Developer",
       expertise: "Natural Language Processing, Machine Learning",
-      avatar: "AP"
+      avatar: "AS"
     },
     {
-      name: "Priya Sharma",
-      role: "Frontend Developer",
-      expertise: "React, UI/UX Design, Multilingual Interfaces",
-      avatar: "PS"
+      name: "Maahi Saxena",
+      expertise: "React, UI/UX Design",
+      avatar: "MS"
     },
     {
-      name: "Ravi Kumar",
-      role: "Backend Developer", 
+      name: "Avani Rawat",
       expertise: "Python, API Development, Database Management",
       avatar: "RK"
     },
     {
-      name: "Sneha Das",
-      role: "Health Research Specialist",
+      name: "Haviesh MS",
       expertise: "Medical Information, Regional Health Policies",
-      avatar: "SD"
+      avatar: "H MS"
     },
     {
-      name: "Amit Singh",
-      role: "DevOps & Integration",
+      name: "Anvitha Reddy",
       expertise: "Cloud Deployment, Government Systems Integration",
-      avatar: "AS"
+      avatar: "AR"
     },
     {
-      name: "Kavya Nair",
-      role: "Language Specialist",
+      name: "PSVB Ashmita",
       expertise: "Hindi & Odia Translation, Cultural Adaptation",
-      avatar: "KN"
+      avatar: "PA"
     }
   ];
 
