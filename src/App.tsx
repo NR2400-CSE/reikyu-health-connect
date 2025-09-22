@@ -1,12 +1,10 @@
 import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";               // Your homepage
+import Index from "./pages/Index";               // Homepage
 import ChatbotPage from "./pages/ChatbotPage";   // Chatbot interface
 import FeaturesPage from "./pages/FeaturesPage";
-import DashboardPage from "./pages/DashboardPage";
 import AboutPage from "./pages/AboutPage";
 import NotFound from "./pages/NotFound";
 
@@ -16,21 +14,12 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
-      <Sonner />
       <BrowserRouter>
         <Routes>
-          {/* Homepage */}
           <Route path="/" element={<Index />} />
-
-          {/* Chatbot page */}
           <Route path="/chatbot" element={<ChatbotPage />} />
-
-          {/* Other pages */}
           <Route path="/features" element={<FeaturesPage />} />
-          <Route path="/dashboard" element={<DashboardPage />} />
           <Route path="/about" element={<AboutPage />} />
-
-          {/* Catch-all 404 page */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
