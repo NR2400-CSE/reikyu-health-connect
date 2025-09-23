@@ -84,7 +84,7 @@ const AboutPage = () => {
                 <h1 className="text-4xl font-bold bg-gradient-hero bg-clip-text text-transparent">
                   Team Reikyu
                 </h1>
-                <p className="text-lg text-muted-foreground">Smart India Hackathon 2024</p>
+                <p className="text-lg text-muted-foreground">Smart India Hackathon 2025</p>
               </div>
             </div>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
@@ -238,10 +238,10 @@ const AboutPage = () => {
                   We extend our gratitude to the <strong>Government of Odisha</strong> and the <strong>Department of Health & Family Welfare</strong> for their support and guidance in developing this healthcare solution.
                 </p>
                 <p className="text-muted-foreground">
-                  Special thanks to <strong>Smart India Hackathon 2024</strong> for providing the platform to address critical healthcare challenges through innovative technology solutions.
+                  Special thanks to <strong>Smart India Hackathon 2025</strong> for providing the platform to address critical healthcare challenges through innovative technology solutions.
                 </p>
                 <div className="flex flex-wrap justify-center gap-4 mt-6">
-                  <Badge variant="secondary">Smart India Hackathon 2024</Badge>
+                  <Badge variant="secondary">Smart India Hackathon 2025</Badge>
                   <Badge variant="secondary">Government of Odisha</Badge>
                   <Badge variant="secondary">Ministry of Health & Family Welfare</Badge>
                 </div>
