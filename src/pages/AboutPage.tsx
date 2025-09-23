@@ -17,32 +17,26 @@ const AboutPage = () => {
     {
       name: "Arav Shrivastava",
       role: "Team Lead & AI Developer",
-      expertise: "Natural Language Processing, Machine Learning",
       avatar: "AS"
     },
     {
       name: "Maahi Saxena",
-      expertise: "React, UI/UX Design",
       avatar: "MS"
     },
     {
       name: "Avani Rawat",
-      expertise: "Python, API Development, Database Management",
       avatar: "RK"
     },
     {
       name: "Haviesh MS",
-      expertise: "Medical Information, Regional Health Policies",
       avatar: "H MS"
     },
     {
       name: "Anvitha Reddy",
-      expertise: "Cloud Deployment, Government Systems Integration",
       avatar: "AR"
     },
     {
       name: "PSVB Ashmita",
-      expertise: "Hindi & Odia Translation, Cultural Adaptation",
       avatar: "PA"
     }
   ];
@@ -151,9 +145,7 @@ const AboutPage = () => {
                       <p className="text-sm text-muted-foreground">{member.role}</p>
                     </div>
                   </div>
-                  <p className="text-sm text-muted-foreground mb-4">
-                    <strong>Expertise:</strong> {member.expertise}
-                  </p>
+                  
                   <div className="flex space-x-2">
                     <Github className="w-4 h-4 text-muted-foreground hover:text-primary cursor-pointer transition-colors" />
                     <Linkedin className="w-4 h-4 text-muted-foreground hover:text-primary cursor-pointer transition-colors" />
