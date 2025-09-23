@@ -42,7 +42,7 @@ const AboutPage = () => {
   ];
 
   const problemStatement = {
-    title: "SIH Problem Statement ID: 1234",
+    title: "SIH Problem Statement ID: 25049",
     category: "Healthcare & Medical Technology",
     organization: "Ministry of Health & Family Welfare, Government of India",
     description: "Develop an AI-driven multilingual chatbot for public health awareness and disease prevention in rural and urban communities of India"
