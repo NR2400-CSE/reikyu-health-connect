@@ -27,10 +27,10 @@ const Index = () => {
   }, [isScrolled]);
 
   const stats = [
-    { icon: Users, label: "People Reached", value: "10K+", color: "text-primary" },
-    { icon: Globe, label: "Languages", value: "3", color: "text-secondary" },
-    { icon: Stethoscope, label: "Health Topics", value: "50+", color: "text-accent" },
-    { icon: Shield, label: "Accuracy Rate", value: "95%", color: "text-success" },
+    { icon: Users, label: "Large Connectivity", value: "", color: "text-primary" },
+    { icon: Globe, label: "Languages", value: "", color: "text-secondary" },
+    { icon: Stethoscope, label: "Health Topics", value: "", color: "text-accent" },
+    { icon: Shield, label: "Safe and Reliable", value: "", color: "text-success" },
   ];
 
   return (
@@ -62,9 +62,6 @@ const Index = () => {
             <div className="flex flex-wrap justify-center gap-4 animate-slide-up">
               <Button className="bg-gradient-primary hover:shadow-floating transition-smooth">
                 Start Conversation
-              </Button>
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary-light/20">
-                Learn More
               </Button>
             </div>
           </div>
