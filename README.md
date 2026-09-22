@@ -1,73 +1,60 @@
-# Welcome to your Lovable project
+# Reikyu — Multilingual Public Health Chatbot
 
-## Project info
+An AI-driven multilingual chatbot for public health awareness and disease prevention in rural and urban India — built for **Smart India Hackathon 2025, Problem Statement ID 25049** (Ministry of Health & Family Welfare, Government of India).
 
-**URL**: https://lovable.dev/projects/88851a72-b84e-42e2-88ec-0e8e4abeaa97
 
-## How can I edit this code?
+## Team project
 
-There are several ways of editing your application.
+This was built by a six-person team for Smart India Hackathon. It is not a solo project — see the [About page](src/pages/AboutPage.tsx) in this repo for the full team.
 
-**Use Lovable**
+## Problem
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/88851a72-b84e-42e2-88ec-0e8e4abeaa97) and start prompting.
+Language barriers, low awareness, and slow access to verified health information make it hard for many communities in India to get timely, trustworthy health guidance — especially during outbreaks or vaccination drives.
 
-Changes made via Lovable will be committed automatically to this repo.
+## What it does
 
-**Use your preferred IDE**
+- **Multilingual chat interface** — conversational health assistant in English, Hindi, and Odia, with context-aware responses
+- **Symptom assessment** — preliminary AI-assisted symptom checks with guidance on when to see a doctor
+- **Vaccination reminders** — automated SMS/WhatsApp reminders for routine and emergency vaccinations
+- **Outbreak alerts** — real-time notifications about disease outbreaks and public health emergencies in the user's area
+- **Health etiquette guide** — practical disease-prevention guidance (hand hygiene, respiratory etiquette, etc.)
+- **Government data integration** — designed to connect with health department databases and official sources
+- **SMS/WhatsApp integration** — reaches users on messaging platforms they already use, not just a web app
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Tech stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+| Layer | Technology |
+|---|---|
+| Frontend | React, TypeScript, Vite |
+| UI | Tailwind CSS, shadcn/ui, Radix UI |
+| Routing / Data | React Router, TanStack Query |
+| Forms | React Hook Form |
 
-Follow these steps:
+## Project structure
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```
+src/
+  pages/
+    Index.tsx            # homepage
+    ChatbotPage.tsx        # chat interface
+    FeaturesPage.tsx        # feature overview
+    DashboardPage.tsx        # health etiquette guide
+    AboutPage.tsx             # problem statement, team, objectives
+  components/
+    ChatInterface.tsx           # multilingual chat UI + quick actions
+    NavBar.tsx
+    ui/                            # shadcn/ui component library
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## Running locally
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Visit `http://localhost:5173`.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Status
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/88851a72-b84e-42e2-88ec-0e8e4abeaa97) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Prototype built for Smart India Hackathon 2025. Chat, vaccination reminders, outbreak alerts, and government data integration are represented in the UI; verify current integration status before citing specific features as fully functional in a production sense.
